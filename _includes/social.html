@@ -1,0 +1,7 @@
+<div style="display: flex; justify-content: center; align-items: center;">
+  <ul class="social-media-list">
+    {%- for social in site.minima.social_links -%}
+      <li><a href="{{ social.user_url }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#' | append: social.platform | relative_url }}"></use></svg></a></li>
+    {%- endfor -%}
+  </ul>
+</div> 

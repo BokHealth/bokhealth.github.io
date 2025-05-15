@@ -1,1 +1,15 @@
 theme: minima
+
+title: Build
+email: feyn@bokhealth.com
+description: >-
+  Make good new things
+
+# Social links
+github_username: BokHealth
+rss: rss
+
+# Optional: If you want to show social links in minima
+minima:
+  social_links:
+    - { platform: github,  user_url: "https://github.com/BokHealth" }
